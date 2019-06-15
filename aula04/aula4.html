@@ -1,0 +1,102 @@
+
+<!DOCTYPE>
+<html lang="pt-br">
+<head>
+	<title>Aula 04</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<p id="texto">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+	</p>
+	<script type="text/javascript">
+		 
+		 //definindo variaveis
+
+		//var nome = 'Lucas';
+		//var sobrenome = 'Matos';
+		//var idade = 18;
+		 //array js
+		//var pessoa = ['Lucas','Matos','18'];		 
+		//imprimindo a posicao do array.
+		//console.log(pessoa[0]);
+
+		//objeto pessoa		
+		//var ObjPessoa = {nome:'Lucas',sobrenome: 'Matos', idade: 18}
+		var texto = document.getElementById('texto').innerText;		
+		alert(texto);
+		console.log(texto);
+
+		//imprimindo objeto pessoa.
+		//console.log(ObjPessoa);
+
+		//imprimindo objetoe utilizando function dentro do objeto.
+
+       /*var ObjPessoa = {nome:'Lucas', sobrenome: 'Matos', idade: 18, estadoC: function(){
+			alert('Solteiro')} }
+		//imprimindo objeto pessoa.
+		console.log(ObjPessoa.estadoC());
+		*/
+		
+		//forma 1
+
+		//array de alimentos.
+		//array com valores iniciais.
+		//var alimentos = ['Arroz','Carne','Feijão','Batata'];
+		//adicionando novos valores ao array.
+		//alimentos[4] = 'cenoura';
+
+		//o metodo length mostra o tamanho do array ou seja os indices.
+		//console.log(alimentos.length);
+
+		//forma 2
+
+		//var alimentos = ['Pizza','Maionese','Pastel'];
+
+		//push sempre add mais um item no final do array sem precisar ficar buscando indices.
+
+		//alimentos.push('Sanduíche');
+		//console.log(alimentos.length);
+
+		//tranformando o array em uma string usando o metodo toString() e apresentando no console.		
+		/*var alimentos = ['Pizza','Maionese','Pastel'];
+        
+        alimentos.push('Sanduíche');
+		console.log(alimentos.toString());
+		*/
+		//metodo join add qualqer caracter no array.
+		//var alimentos = ['Pizza','Maionese','Pastel'];
+        
+        //metodo push add ao array.
+        //alimentos.push('Sanduíche');
+       
+        //se voce quiser adiconar um item no inicio do array utilizasse unshift.
+        //alimentos.unshift('Sanduíche');
+        
+        //metodo pop remove o ultimo item do array.
+        //alimentos.pop();
+       
+        //metodo shif remove o primeiro item do array.
+        //alimentos.shift();
+       
+        //metodo sort deixa em ordem alfabetica o array.
+        //alimentos.sort();
+       
+        //metodo reverse inverte a ordem do array.
+        //alimentos.reverse();
+		
+		//console.log(alimentos.join("-"));
+		//console.log(alimentos.toString());
+		//console.log(ObjPessoa);
+
+	</script>
+
+</body>
+</html>
