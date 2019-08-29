@@ -1,2 +1,2 @@
 # JavaScript
-projetos desenvolvidos utilizando JavaScript.
+Projetos Desenvolvidos utilizando JavaScript.
