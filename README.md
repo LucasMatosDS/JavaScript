@@ -1,2 +1,2 @@
 # JavaScript
-Projetos Desenvolvidos utilizando JavaScript.
+exemplos de aulas utilizando JavaScript.
