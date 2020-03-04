@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>classe JavaScript</title>
+	<script type="text/javascript" src="./cliente.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var dados;
+		var cli = new Cliente();
+
+		cli.setNome("jose");
+		cli.setSobrenome("santos");
+		cli.setTel("51 99876-3456");
+		cli.setEmail("jose@gmail.com");
+
+		dados = cli.getNome() +"\n"+
+		cli.getSobrenome() +"\n"+
+		cli.getTel() +"\n"+
+		cli.getEmail();
+
+		console.log(dados);
+	</script>
+
+</body>
+</html>
